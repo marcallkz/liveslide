@@ -1,0 +1,11 @@
+{
+  "name": "liveslide",
+  "version": "0.0.1",
+  "description": "live slide sharing with spectators",
+  "author": "Lucas Marçal <lucasmarcaldossantos@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "ws": "^0.7.1"
+  }
+}

@@ -1,0 +1,51 @@
+.wrapper {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	bottom: 35px;
+	left: 25px;
+}
+
+#playpause {
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+}
+
+.play::before {
+	left: 2px;
+	border-style: solid;
+	border-color: transparent transparent transparent #FFF;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-width: 8px 12px;
+	margin-top: -8px;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+#playpause::before,
+#playpause::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0px;
+}
+
+.pause::before {
+	left: 2px;
+	width: 4px;
+	height: 14px;
+	border-style: solid;
+	border-color: #FFF;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-width: 0px 4px;
+	margin-top: -7px;
+	background: none repeat scroll 0% 0% transparent;
+}
